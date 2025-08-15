@@ -1,0 +1,104 @@
+header {
+background-image: url(/images/b9d8e986e33a279ed069e720358d6e7d.jpg);
+    color: #FFFAF3;
+    align-items: center;
+    padding: 50px 20px;
+    margin-left: 0px;
+    background-position: center;
+    box-shadow: 0 0 40px rgba(0,0,0,0.5);
+    text-align: center;
+    text-shadow:0 0 40px rgba(0,0,0,0.5);
+    font-family: Arial;
+    border-radius: 10px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    color: #ffbf00;
+    font-size: 1.6em;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h4{
+    color: #C1C1C1;
+    margin-bottom: 10px;
+}
+.ingredients {
+    display: flex;
+    background-color: #fffaf3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    font-family: Arial;
+    font-weight: bold;
+    margin: 5%,5%,5%,5%;
+    font-size: 1.2em;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    transition:transform 0.3s ease;
+    width: 50vw;
+    color: #2b1705;
+}
+
+.instructions {
+    display: flex;
+    background-color: #fffaf3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    font-family: Arial;
+    font-weight: bold;
+    margin: 5%,5%,5%,5%;
+    font-size: 1.2em;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    transition:transform 0.3s ease;
+    width: 50vw;
+    color: #2b1705;
+    margin-bottom: 20px;
+}
+
+.instructions:hover, .ingredients:hover {
+    transform: scale(1.05);
+}
+
+.homebutton {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #adadad; /* Ensures SVG or font icon is white */
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+    opacity: .8;
+    transition:transform 0.3s ease;
+
+
+}
+
+.homebutton:hover {
+    opacity: 1;
+    transform:scale(1.1);
+}
+.credits {
+    text-align: center;
+    font-size: 0.9em;
+    color: #9500ff;
+    margin-top: 20px;
+}
